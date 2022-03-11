@@ -2,8 +2,8 @@ module.exports = function heck(str, bracketsConfig){
   const OPEN_BRACKETS = ["(", "[", "{"];
   const BRACKETS_DICT = {
     ")" : "(",
-    "}" : "}",
-    ")" : "(",
+    "}" : "{",
+    "]" : "[",
     "|" : "|",
   };
   let stack = [];
